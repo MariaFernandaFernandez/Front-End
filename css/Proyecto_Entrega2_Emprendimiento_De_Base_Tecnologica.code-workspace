@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Bases_de_datos_transaccio/Entrega Final - Persistencia de datos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

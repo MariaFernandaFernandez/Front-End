@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordatorios</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recordatorios</h1>
+        <nav>
+            <ul>
+                <li><a href="/pages/index.html">Inicio</a></li>
+                <li><a href="/pages/agendarCitas.html">Agendar citas</a></li>
+                <li><a href="/pages/historial.html">Historial de pacientes</a></li>
+                <li><a href="/pages/reportes.html">Reportes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="form-recordatorio">
+            <label for="recordatorio">Nuevo recordatorio:</label>
+            <input type="text" id="recordatorio" name="recordatorio" required><br><br>
+            <button type="submit">Agregar recordatorio</button>
+        </form>
+        <ul id="lista-recordatorios">
+            <li>Recordatorio: Revisión semanal de pacientes.</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gestión de Consultorios Psicológicos</p>
+    </footer>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
